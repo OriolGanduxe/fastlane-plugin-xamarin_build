@@ -1,6 +1,6 @@
 module Fastlane
   module Actions
-    class XamarinBuildIOSAction < Action
+    class XamarinBuildIosAction < Action
       MDTOOL = '/Applications/Xamarin\ Studio.app/Contents/MacOS/mdtool'.freeze
       XBUILD = '/Library/Frameworks/Mono.framework/Commands/xbuild'.freeze
 
